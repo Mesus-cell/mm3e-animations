@@ -16,6 +16,7 @@ Hooks.on("ready", () => {
         };
 
         //easy access to tokens
+        //comment
         this.targets = Array.from(game.user.targets);
         this.tiles = canvas.tiles.placeables;
         this.selecteds = canvas.tokens.controlled
