@@ -3,6 +3,7 @@ Hooks.on("ready", () => {
     class BaseEffectSection extends Sequencer.BaseSection {
     constructor(inSequence) {
         super(inSequence)
+        //online  made a change   
         this._effect;
         this.sequence = new Sequence();
 
@@ -4085,7 +4086,6 @@ Hooks.on("ready", () => {
     
     }
 
-  
 
     class HolyEffectSection extends TemplatedDescriptorEffect {
         constructor(inSequence) {
